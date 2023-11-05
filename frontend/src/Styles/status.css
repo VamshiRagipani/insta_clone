@@ -1,0 +1,21 @@
+.statusContainer{
+    height: 120px;
+    border: 10px ;
+    display: flex;
+    width: 90vh;
+    gap : 30px;
+    justify-content:start;
+    padding-left: 20px;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: auto;
+    color:white;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 0%;
+    image-resolution: 100%;
+    background-color: black;
+    
+   
+
+}

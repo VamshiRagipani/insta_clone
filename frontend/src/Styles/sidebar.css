@@ -1,0 +1,19 @@
+.sidebarCont{
+    margin: 0px;
+    padding: 0px;
+    color: azure;
+    border:1px solid white;
+}
+
+.sidebarCont ul {
+    height:100vh;
+    margin: 10px;
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 20px;
+}
