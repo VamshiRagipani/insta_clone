@@ -1,20 +1,21 @@
-.postContainer{
-    width:30vw;
+.postContainer {
+    margin-top: 1vw;
+    width: 50vw;
     color: aliceblue;
-    margin-left:15vw;
 }
 
-.postHeader{
+.postHeader {
     display: flex;
     justify-content: flex-start;
-    gap:10px;
-    height:50px;
-    width:100%;
+    gap: 10px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
     align-items: center;
 }
-.postMain{
 
+.postMain {
     display: flex;
-    flex-direction:column;
-    gap:20px;
+    flex-direction: column;
+    gap: 20px;
 }

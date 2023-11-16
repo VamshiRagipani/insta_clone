@@ -1,19 +1,24 @@
-import React from "react"
+import React from "react";
 import Sidebar from "../common/Sidebar";
-import Main from "./Main"
-const Home = () =>{
-    return(
-        <div style = {{display : 'flex'}}>
-            <div>
-            <Sidebar/>
-            </div>
+import Main from "./Main";
+import Suggestion from "./Suggestion";
 
-            <div>
-            <Main/>
-            </div>
+const Home = () => {
+  return (
+    <div style={{ display: 'flex', justifyContent: "space-between" }}>
+      <div>
+        <Sidebar />
+      </div>
 
-        </div>
-    )
-}
+      <div>
+        <Main />
+      </div>
+
+      <div>
+        <Suggestion />
+      </div>
+    </div>
+  );
+};
 
 export default Home;

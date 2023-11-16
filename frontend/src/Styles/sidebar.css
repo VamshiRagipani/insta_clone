@@ -1,19 +1,23 @@
-.sidebarCont{
-    margin: 0px;
-    padding: 0px;
+/* Sidebar Container */
+.sidebarCont {
+    padding: 10px;
     color: azure;
-    border:1px solid white;
+    background-color: #000000;
+    /* Set background color to black */
+    border-right: 1px solid #efefef;
+    /* Instagram's border color */
 }
 
+/* Sidebar List */
 .sidebarCont ul {
-    height:100vh;
-    margin: 10px;
-    margin-right: 50px;
+    height: 90vh;
+    margin: 8px;
+    margin-right: 10px;
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 20px;
-    padding-right: 50px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 20px;
 }
